@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfoli.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="shortcut icon" href="images/favicon.jpg.png" type="image/x-icon">
+
+
+  <title>Badusha Salim</title>
+</head>
+
+<body>
+  <div id="home"></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+    <div class="container-fluid">
+      <a class="navbar-brand ms-lg-5 ms-2" href="#"><b>Badusha Salim</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-5">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#about"><b>About</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project"><b>Projects </b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills"><b>Skills </b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><b> Contact </b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5 my-5">
+
+    <div class="container">
+      <h2 class="mb-4 text-center sk Get"><b>About Me </b> </h2>
+      <div class="text-center mb-4 mt-4">
+        <img src="images/WhatsApp Image 2025-04-28 at 20.23.20_d72091d7.jpg" alt="My Photo"
+          class="img-fluid rounded-circle shadow mb-3 Image" width="200">
+
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p>Hello! I'm <strong>Badusha Salim</strong>, a passionate web developer with experience in HTML, CSS,
+            JavaScript,and Bootstrap.I enjoy building responsive, clean, and user-friendly websites. I’m always learning
+            new technologies and
+            improving my craft.</p> <br>
+          <p> I am also a passionate <strong>translator</strong> with expertise in translating from Arabic to English.
+            With a deep
+            understanding of both languages, I strive to provide clear, accurate, and culturally-sensitive translations
+            that maintain the true meaning of the original text. Whether it's literary, technical, or conversational, I
+            am dedicated to bridging the language gap and ensuring smooth communication across cultures." </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="project" class="py-5 my-5">
+    <div class="container">
+      <h2 class="text-center mb-4 sk Get"><b> Projects </b></h2>
+      <br>
+      <div class="row justify-content-center">
+        <div class="col-md-6 mb-4">
+          <h5><b>EaseMyTrip Clone (Static)</b></h5>
+          <p>
+            A static front-end clone of the EaseMyTrip travel booking website, built using HTML and CSS.
+            The project focuses on accurately replicating the visual layout and user interface of the original site. It
+            demonstrates my skills in responsive design and layout structuring.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="py-5 my-5 custom-margin">
+    <div class="container">
+      <h2 class="mb-3 text-center sk Get "><b>Skills</b></h2>
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-6 text-center mb-3">
+          <div class="border p-3 rounded shadow-sm he">
+            <b>HTML & CSS</b>
+            <p class="mt-2 mb-0">Foundation of web structure and styling.</p>
+            <p class="mb-0">Used to build responsive layouts.</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center mb-3">
+          <div class="border p-3 rounded shadow-sm he">
+            <b>JavaScript</b>
+            <p class="mt-2 mb-0">Adds interactivity to web pages.</p>
+            <p class="mb-0">Handles dynamic behavior in UI.</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center mb-3">
+          <div class="border p-3 rounded shadow-sm he">
+            <b>Bootstrap</b>
+            <p class="mt-2 mb-0">Framework for fast UI development.</p>
+            <p class="mb-0">Provides responsive grid and components.</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center mb-3">
+          <div class="border p-3 rounded shadow-sm he">
+            <b>Multi-Lingual Translation</b>
+            <p class="mt-2 mb-0">Arabic to English language expertise.</p>
+            <p class="mb-0">Accurate and context-aware translation.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CONTACT ME SECTION -->
+  <section id="contact" class="py-5 my-5 custom-margin">
+    <div class="container">
+      <h2 class="mb-3 text-center Get sk">Get In Touch</h2>
+      <p class="mb-3 text-center con sk"> Contact me. I'll get back to you quickly.</p>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form autocomplete="on" onsubmit="sendMail(); return false;">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p>or connect me on</p>
+        <a href="https://www.linkedin.com/in/badusha-salim-47944535b/" aria-label="LinkedIn profile" target="_blank">
+          <i class="fab fa-linkedin fa-2x" style="color: #0077b5;"></i>
+        </a>
+        <a href="https://www.facebook.com/badhusha.vm.58" aria-label="facebook profile" target="_blank">
+          <i class="fab fa-facebook fa-2x" style="color: #1877f2;"></i>
+        </a>
+        <a href="https://www.instagram.com/im.badhsha/" aria-label="instagram profile" target="_blank">
+          <i class="fab fa-instagram fa-2x" style="color: #E1306C;"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-center py-4 mt-5">
+    <div class="container">
+      <div class="mb-4">
+        <a href="https://www.linkedin.com/in/badusha-salim-47944535b/" target="_blank" class="me-3">
+          <i class="fab fa-linkedin fa-lg" style="color: #0077b5;"></i>
+        </a>
+        <a href="https://www.facebook.com/badhusha.vm.58" target="_blank" class="me-3">
+          <i class="fab fa-facebook fa-lg" style="color: #1877f2;"></i>
+        </a>
+        <a href="https://www.instagram.com/im.badhsha/" target="_blank" class="me-3">
+          <i class="fab fa-instagram fa-lg" style="color: #E1306C;"></i>
+        </a>
+        <a href="https://x.com/Badhusha9408" target="_blank" class="me-3">
+          <i class="fab fa-x-twitter fa-lg text-light"></i>
+        </a>
+      </div>
+      <p class="mb-0 text-light ">&copy; 2025 Badusha Salim. All rights reserved.</p>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+    crossorigin="anonymous"></script>
+  <script src="portfolio.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "HQ-V_VB5DvFnNJgnE",
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
