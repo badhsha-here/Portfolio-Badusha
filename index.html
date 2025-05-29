@@ -128,31 +128,32 @@
 
 
   <!-- CONTACT ME SECTION -->
-  <section id="contact" class="py-5 my-5 custom-margin">
-    <div class="container">
-      <h2 class="mb-3 text-center Get sk">Get In Touch</h2>
-      <p class="mb-3 text-center con sk"> Contact me. I'll get back to you quickly.</p>
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <form autocomplete="on" onsubmit="sendMail(); return false;">
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" rows="4" required></textarea>
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary">Send Message</button>
-            </div>
-          </form>
-        </div>
+<section id="contact" class="py-5 my-5 custom-margin">
+  <div class="container">
+    <h2 class="mb-3 text-center Get sk">Get In Touch</h2>
+    <p class="mb-3 text-center con sk">Contact me. I'll get back to you quickly.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form autocomplete="on" onsubmit="sendMail(); return false;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
       </div>
+    </div>
+  </div>
       <div class="text-center mt-4">
         <p>or connect me on</p>
         <a href="https://www.linkedin.com/in/badusha-salim-47944535b/" aria-label="LinkedIn profile" target="_blank">
@@ -189,23 +190,17 @@
   </footer>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
-    integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
-    crossorigin="anonymous"></script>
-  <script src="portfolio.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-  </script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init({
-        publicKey: "HQ-V_VB5DvFnNJgnE",
-      });
-    })();
-  </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+  integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init({
+      publicKey: "HQ-V_VB5DvFnNJgnE"
+  })();
+</script>
+<script src="portfolio.js"></script> 
 </body>
 
 </html>
