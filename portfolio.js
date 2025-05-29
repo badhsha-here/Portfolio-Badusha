@@ -1,8 +1,10 @@
 function sendMail() {
   const params = {
-    name: document.getElementById("name").value,
+    fname: document.getElementById("name").value,
     email: document.getElementById("email").value,
     message: document.getElementById("message").value,
+    from_name: document.getElementById("name").value,
+    from_email: document.getElementById("email").value,
   };
 
   const serviceID = "service_eqgw7vu";
@@ -10,14 +12,14 @@ function sendMail() {
 
   emailjs.send(serviceID, templateID, params)
     .then(res => {
+      console.log("Email sent successfully:", res.status);
+      alert("Your Response Sent Successfully");
       document.getElementById("name").value = "";
       document.getElementById("email").value = "";
       document.getElementById("message").value = "";
-      console.log("Email sent successfully:", res.status);
-      alert("Your Response Sent Successfully");
     })
     .catch(err => {
-      console.error("Email send error:", err);
+      console.error("Failed to send email:", err);
       alert("Failed to send message. Please try again later.");
     });
 }
