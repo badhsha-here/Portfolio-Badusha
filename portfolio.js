@@ -21,7 +21,7 @@ function sendMail() {
       document.getElementById("message").value = "";
     })
     .catch(err => {
-      console.error("Failed to send email:", err);
+      console.error("Failed to send email", err);
       alert("Failed to send message. Please try again later.");
     });
 }
