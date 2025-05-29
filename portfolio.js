@@ -1,3 +1,5 @@
+emailjs.init('HQ-V_VB5DvFnNJgnE');
+
 function sendMail() {
   const params = {
     fname: document.getElementById("name").value,
